@@ -2,10 +2,10 @@
 * Estilos CSS para tratamento de formulários
 **/
 .formulario {
-  padding: 20px;
+  padding: $space-small;
   label {
     display: block;
-    margin-top: 20px;
+    margin-top: $space-small;
     &:first-child {
       margin-top: 0px;
     }
@@ -20,11 +20,11 @@
         width: auto;
       }
       &[type='submit'] {
-        margin-top: 20px;
+        margin-top: $space-small;
         width: 200px;
         background: #f3f3f3;
         border: 5px solid #666;
-        padding: 10px;
+        padding: $space-small;
         text-transform: uppercase;
       }
     }
@@ -35,10 +35,10 @@
 * Estilos CSS para tratamento de mensagens
 **/
 .conteudo .mensagem {
-  padding: 20px;
-  margin: 10px;
+  padding: $space-small;
+  margin: $space-small;
   border: 1px solid #666;
-  background: #ccc;
+  background: $gray-light;
   color: white;
   font-weight: bold;
   &.erro {

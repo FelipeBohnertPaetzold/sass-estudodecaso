@@ -30,18 +30,18 @@
     li {
       float: left; /* estrutura deverá flutuar à esquerda */
       list-style: none; /* removendo estilo de marcador padrão */
-      padding: 5px 20px; /* espaçamento interno sendo aplicado */
-      border-left: 1px solid #ccc; /* criando uma borda esquerda */
+      padding: 5px $space-small; /* espaçamento interno sendo aplicado */
+      border-left: 1px solid $gray-light; /* criando uma borda esquerda */
       &:last-child {
-        border-right: 1px solid #ccc; /* criando uma borda direita */
+        border-right: 1px solid $gray-light; /* criando uma borda direita */
       }
     }
   }
   .informacao-brasil {
     float: left;
     width: 100px;
-    padding: 10px 0;
-    padding-left: 20px;
+    padding: $space-small 0;
+    padding-left: $space-small;
 
     font: bold 12px/18px tahoma;
     font-weight: bold;
@@ -50,17 +50,17 @@
     img {
       display: block;
       float: left;
-      margin-right: 10px;
+      margin-right: $space-small;
     }
     span {
       display: block;
       float: left;
-      line-height: 20px;
+      line-height: $space-small;
     }
   }
   .informacao-servicos {
     float: left;
-    width: 320px;
+    width: 3$space-small;
     padding: 0;
     li {
       float: left;
@@ -96,14 +96,14 @@
   h1 {
     float: left;
     width: 430px;
-    padding-left: 20px;
+    padding-left: $space-small;
 
     font-family: openSansBold, arial, sans-serif, times;
     font-size: 38px;
     color: #ffdc19;
   }
   .busca {
-    width: 510px;
+    width: 5$space-small;
     float: right;
     padding-top: 30px;
     form {
@@ -111,7 +111,7 @@
       width: 230px;
       padding: 5px;
       float: right;
-      margin-right: 20px;
+      margin-right: $space-small;
 
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -126,7 +126,7 @@
           float: left;
         }
         &[type='image'] {
-          width: 20px;
+          width: $space-small;
           float: left;
         }
       }
@@ -141,13 +141,13 @@
   ul {
     text-align: right;
     margin: 0;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: $space-small;
+    padding: $space-small;
     li {
       list-style: none;
       display: inline;
       border-right: 1px solid #999;
-      padding: 0px 10px;
+      padding: 0px $space-small;
       a {
         color: white;
         text-decoration: none;

@@ -7,23 +7,23 @@
   width: $width-container;
   margin: 0 auto;
   overflow: auto;
-  padding: 10px 0 0 0;
+  padding: $space-small 0 0 0;
   .banner-principal {
     text-align: center;
-    margin: 10px 0px;
+    margin: $space-small 0px;
   }
   .mapa-do-site ul {
-    padding: 0 10px;
+    padding: 0 $space-small;
     overflow: auto;
     li {
       list-style: none;
 
       float: left;
       padding: 0;
-      margin-right: 10px;
+      margin-right: $space-small;
 
       color: black;
-      font-size: 10px;
+      font-size: $space-small;
       a {
         color: darkblue;
         text-decoration: none;
@@ -40,31 +40,31 @@
       margin: 0;
       padding: 0;
       &.menu-destaque li {
-        margin: 0 10px;
-        padding: 3px 10px;
+        margin: 0 $space-small;
+        padding: 3px $space-small;
         list-style: none;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid $gray-light;
         a {
           text-decoration: none;
           font-size: 14px;
         }
         &:last-child {
-          border-bottom: 1px solid #ccc;
+          border-bottom: 1px solid $gray-light;
         }
       }
       &.menu-estruturado li {
         h3 {
           border-top: 5px solid green;
-          background-color: #ccc;
-          padding: 10px;
-          padding-bottom: 20px;
+          background-color: $gray-light;
+          padding: $space-small;
+          padding-bottom: $space-medium;
           font-size: 12px;
           text-transform: uppercase;
         }
         a {
           color: #333;
-          border-bottom: 1px solid #ccc;
-          padding: 10px 20px;
+          border-bottom: 1px solid $gray-light;
+          padding: $space-small $space-medium;
           text-decoration: none;
           font-size: 15px;
           display: block;
@@ -78,7 +78,7 @@
   .conteudo {
     width: 750px;
     float: left;
-    margin-left: 20px;
+    margin-left: $space-medium;
     .noticia-destaque {
       overflow: auto;
       small {
@@ -86,7 +86,7 @@
       }
       h4 {
         font-size: 26px;
-        margin: 10px 0;
+        margin: $space-small 0;
       }
       .noticia-chamada {
         p {
@@ -94,11 +94,11 @@
         }
         img {
           float: left;
-          margin-right: 20px;
+          margin-right: $space-medium;
           &.right {
             float: right;
             margin-right: 0;
-            margin-left: 20px;
+            margin-left: $space-medium;
           }
         }
       }
@@ -112,8 +112,8 @@
     }
     h3 {
       border-top: 5px solid green;
-      background-color: #ccc;
-      padding: 10px;
+      background-color: $gray-light;
+      padding: $space-small;
       padding-bottom: 30px;
       margin-top: 0;
       font-size: 18px;
@@ -123,15 +123,15 @@
     .noticia-destaque-conteudo {
       img {
         float: left;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        margin-right: $space-medium;
+        margin-bottom: $space-medium;
       }
       p {
         text-align: justify;
       }
     }
     .noticia-lista {
-      padding-top: 20px;
+      padding-top: $space-medium;
       ul {
         padding: 0;
         margin: 0;
@@ -159,7 +159,7 @@
         font-size: 14px;
       }
       small {
-        font-size: 10px;
+        font-size: $space-small;
       }
     }
   }
