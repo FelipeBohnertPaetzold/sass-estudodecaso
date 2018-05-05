@@ -1,6 +1,4 @@
-@import 'form-super';
-
-@mixin forms {
+@mixin contato {
   .form-contato {
     @extend .form;
   }

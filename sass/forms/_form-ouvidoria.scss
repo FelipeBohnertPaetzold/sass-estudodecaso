@@ -1,6 +1,4 @@
-@import 'form-super';
-
-@mixin forms {
+@mixin ouvidoria {
   .form-ouvidoria {
     @extend .form;
     float: right;
