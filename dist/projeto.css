@@ -397,14 +397,23 @@
   background-color: seagreen;
 }
 
-.form, .form-ouvidoria, .form-contato {
+.form, .form-faq, .form-ouvidoria, .form-contato {
   padding: 50px;
   display: block;
   text-align: center;
 }
 
+.form-contato {
+  padding: 50px;
+}
+
 .form-ouvidoria {
+  padding: 10px;
   float: right;
+}
+
+.form-faq {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=dist/projeto.css.map */

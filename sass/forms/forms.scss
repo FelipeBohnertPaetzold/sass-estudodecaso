@@ -8,5 +8,6 @@ $gerar-forms: true;
     text-align: center;
   }
   @include contato;
-  @include ouvidoria;
+  @include ouvidoria(10px);
+  @include faq(10px);
 }
