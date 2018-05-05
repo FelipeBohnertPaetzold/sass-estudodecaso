@@ -1,0 +1,8 @@
+@import 'form-super';
+
+@mixin forms {
+  .form-ouvidoria {
+    @extend .form;
+    float: right;
+  }
+}

@@ -1,0 +1,6 @@
+$gerar-forms: false;
+@import '_partial';
+
+@if $gerar-forms {
+  @include forms;
+}
