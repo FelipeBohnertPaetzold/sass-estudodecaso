@@ -2,6 +2,6 @@
 
 Estudo de Caso utilizando Sass para curso Udemy
 
-# Para criar o SASS
+# Para rodar o SASS
 
 * ./sass.sh
